@@ -8,6 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		CF4CD3902538F23500A0D6C0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF4CD38F2538F23500A0D6C0 /* main.cpp */; };
+		CF4CD3A42538F25700A0D6C0 /* Dragon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF4CD3972538F25600A0D6C0 /* Dragon.cpp */; };
+		CF4CD3A52538F25700A0D6C0 /* Bogeyman.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF4CD39A2538F25700A0D6C0 /* Bogeyman.cpp */; };
+		CF4CD3A62538F25700A0D6C0 /* Goblin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF4CD39B2538F25700A0D6C0 /* Goblin.cpp */; };
+		CF4CD3A72538F25700A0D6C0 /* GameObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF4CD39D2538F25700A0D6C0 /* GameObject.cpp */; };
+		CF4CD3A82538F25700A0D6C0 /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF4CD39E2538F25700A0D6C0 /* Game.cpp */; };
+		CF4CD3A92538F25700A0D6C0 /* Dungeon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF4CD3A12538F25700A0D6C0 /* Dungeon.cpp */; };
+		CF4CD3AA2538F25700A0D6C0 /* Actor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF4CD3A32538F25700A0D6C0 /* Actor.cpp */; };
+		CF4CD3B72538F27200A0D6C0 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF4CD3AC2538F27100A0D6C0 /* Player.cpp */; };
+		CF4CD3B82538F27200A0D6C0 /* Snakewoman.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF4CD3AE2538F27100A0D6C0 /* Snakewoman.cpp */; };
+		CF4CD3B92538F27200A0D6C0 /* Room.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF4CD3AF2538F27100A0D6C0 /* Room.cpp */; };
+		CF4CD3BA2538F27200A0D6C0 /* utilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF4CD3B02538F27100A0D6C0 /* utilities.cpp */; };
+		CF4CD3BB2538F27200A0D6C0 /* Weapon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF4CD3B12538F27100A0D6C0 /* Weapon.cpp */; };
+		CF4CD3BC2538F27200A0D6C0 /* Scroll.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF4CD3B32538F27200A0D6C0 /* Scroll.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +38,32 @@
 /* Begin PBXFileReference section */
 		CF4CD38C2538F23500A0D6C0 /* MiniRogue */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MiniRogue; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF4CD38F2538F23500A0D6C0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		CF4CD3962538F25600A0D6C0 /* Goblin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Goblin.h; sourceTree = "<group>"; };
+		CF4CD3972538F25600A0D6C0 /* Dragon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Dragon.cpp; sourceTree = "<group>"; };
+		CF4CD3982538F25600A0D6C0 /* Dragon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dragon.h; sourceTree = "<group>"; };
+		CF4CD3992538F25600A0D6C0 /* GameObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameObject.h; sourceTree = "<group>"; };
+		CF4CD39A2538F25700A0D6C0 /* Bogeyman.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Bogeyman.cpp; sourceTree = "<group>"; };
+		CF4CD39B2538F25700A0D6C0 /* Goblin.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Goblin.cpp; sourceTree = "<group>"; };
+		CF4CD39C2538F25700A0D6C0 /* Actor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Actor.h; sourceTree = "<group>"; };
+		CF4CD39D2538F25700A0D6C0 /* GameObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameObject.cpp; sourceTree = "<group>"; };
+		CF4CD39E2538F25700A0D6C0 /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		CF4CD39F2538F25700A0D6C0 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		CF4CD3A02538F25700A0D6C0 /* Bogeyman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bogeyman.h; sourceTree = "<group>"; };
+		CF4CD3A12538F25700A0D6C0 /* Dungeon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Dungeon.cpp; sourceTree = "<group>"; };
+		CF4CD3A22538F25700A0D6C0 /* Dungeon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dungeon.h; sourceTree = "<group>"; };
+		CF4CD3A32538F25700A0D6C0 /* Actor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Actor.cpp; sourceTree = "<group>"; };
+		CF4CD3AB2538F27100A0D6C0 /* Weapon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Weapon.h; sourceTree = "<group>"; };
+		CF4CD3AC2538F27100A0D6C0 /* Player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
+		CF4CD3AD2538F27100A0D6C0 /* Scroll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scroll.h; sourceTree = "<group>"; };
+		CF4CD3AE2538F27100A0D6C0 /* Snakewoman.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Snakewoman.cpp; sourceTree = "<group>"; };
+		CF4CD3AF2538F27100A0D6C0 /* Room.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Room.cpp; sourceTree = "<group>"; };
+		CF4CD3B02538F27100A0D6C0 /* utilities.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = utilities.cpp; sourceTree = "<group>"; };
+		CF4CD3B12538F27100A0D6C0 /* Weapon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Weapon.cpp; sourceTree = "<group>"; };
+		CF4CD3B22538F27100A0D6C0 /* utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utilities.h; sourceTree = "<group>"; };
+		CF4CD3B32538F27200A0D6C0 /* Scroll.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Scroll.cpp; sourceTree = "<group>"; };
+		CF4CD3B42538F27200A0D6C0 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		CF4CD3B52538F27200A0D6C0 /* Snakewoman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Snakewoman.h; sourceTree = "<group>"; };
+		CF4CD3B62538F27200A0D6C0 /* Room.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Room.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +97,32 @@
 			isa = PBXGroup;
 			children = (
 				CF4CD38F2538F23500A0D6C0 /* main.cpp */,
+				CF4CD3A32538F25700A0D6C0 /* Actor.cpp */,
+				CF4CD39C2538F25700A0D6C0 /* Actor.h */,
+				CF4CD39A2538F25700A0D6C0 /* Bogeyman.cpp */,
+				CF4CD3A02538F25700A0D6C0 /* Bogeyman.h */,
+				CF4CD3972538F25600A0D6C0 /* Dragon.cpp */,
+				CF4CD3982538F25600A0D6C0 /* Dragon.h */,
+				CF4CD3A12538F25700A0D6C0 /* Dungeon.cpp */,
+				CF4CD3A22538F25700A0D6C0 /* Dungeon.h */,
+				CF4CD39E2538F25700A0D6C0 /* Game.cpp */,
+				CF4CD39F2538F25700A0D6C0 /* Game.h */,
+				CF4CD39D2538F25700A0D6C0 /* GameObject.cpp */,
+				CF4CD3992538F25600A0D6C0 /* GameObject.h */,
+				CF4CD39B2538F25700A0D6C0 /* Goblin.cpp */,
+				CF4CD3962538F25600A0D6C0 /* Goblin.h */,
+				CF4CD3AC2538F27100A0D6C0 /* Player.cpp */,
+				CF4CD3B42538F27200A0D6C0 /* Player.h */,
+				CF4CD3AF2538F27100A0D6C0 /* Room.cpp */,
+				CF4CD3B62538F27200A0D6C0 /* Room.h */,
+				CF4CD3B32538F27200A0D6C0 /* Scroll.cpp */,
+				CF4CD3AD2538F27100A0D6C0 /* Scroll.h */,
+				CF4CD3AE2538F27100A0D6C0 /* Snakewoman.cpp */,
+				CF4CD3B52538F27200A0D6C0 /* Snakewoman.h */,
+				CF4CD3B02538F27100A0D6C0 /* utilities.cpp */,
+				CF4CD3B22538F27100A0D6C0 /* utilities.h */,
+				CF4CD3B12538F27100A0D6C0 /* Weapon.cpp */,
+				CF4CD3AB2538F27100A0D6C0 /* Weapon.h */,
 			);
 			path = MiniRogue;
 			sourceTree = "<group>";
@@ -119,7 +184,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF4CD3BC2538F27200A0D6C0 /* Scroll.cpp in Sources */,
+				CF4CD3A42538F25700A0D6C0 /* Dragon.cpp in Sources */,
+				CF4CD3B82538F27200A0D6C0 /* Snakewoman.cpp in Sources */,
+				CF4CD3A52538F25700A0D6C0 /* Bogeyman.cpp in Sources */,
+				CF4CD3B72538F27200A0D6C0 /* Player.cpp in Sources */,
+				CF4CD3B92538F27200A0D6C0 /* Room.cpp in Sources */,
+				CF4CD3BB2538F27200A0D6C0 /* Weapon.cpp in Sources */,
+				CF4CD3A92538F25700A0D6C0 /* Dungeon.cpp in Sources */,
+				CF4CD3BA2538F27200A0D6C0 /* utilities.cpp in Sources */,
+				CF4CD3AA2538F25700A0D6C0 /* Actor.cpp in Sources */,
+				CF4CD3A62538F25700A0D6C0 /* Goblin.cpp in Sources */,
+				CF4CD3A82538F25700A0D6C0 /* Game.cpp in Sources */,
 				CF4CD3902538F23500A0D6C0 /* main.cpp in Sources */,
+				CF4CD3A72538F25700A0D6C0 /* GameObject.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

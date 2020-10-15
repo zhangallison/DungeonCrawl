@@ -1,15 +1,14 @@
-//
-//  main.cpp
-//  MiniRogue
-//
-//  Created by Allison Zhang on 10/15/20.
-//  Copyright © 2020 Allison Zhang. All rights reserved.
-//
+// main.cpp
 
-#include <iostream>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+#include "Game.h"
+
+int main()
+{
+    // Modify argument to Game object modifies goblin smell distance.
+    // Recommended distance is 15 or lower.
+
+    Game g(15);
+    g.play();
 }
+
